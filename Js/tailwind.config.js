@@ -15,6 +15,8 @@ tailwind.config = {
           whatbtn:"#F4F4F5",
           whatcard: "#6B62C5",
           planbg:"#F9F9FB",
+          aboutbg:"#F8F8FF",
+          footerbg:"#48409C",
         },
         // all color part end here
         // font family start
@@ -38,6 +40,7 @@ tailwind.config = {
         // border-radius start
         borderRadius: {
           whatradius: "20px",
+          planradius: "20px",
         }
         // border-radius end
         
