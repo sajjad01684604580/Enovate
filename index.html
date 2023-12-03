@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,500&family=Paprika&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- nav part start -->
+    <div class="py-[18px] bg-navcolor absolute left-0 top-0 w-[100%]">
+        <div class="w-[1170px] mx-auto flex items-center justify-between">
+            <div class="w-[15%]">
+                <picture>
+                    <a href="#">
+                        <img src="Images/logo.png" alt="">
+                    </a>
+                </picture>
+            </div>
+            <div class="w-[65%]  text-center">
+                <ul class="flex justify-center">
+                    <li><a href="#" class="text-[18px] font-opensans font-semibold text-menucolor px-[20px] hover:text-menuhover ">Home<i class="fa-solid fa-angle-down align-middle pl-1"></i></a></li>
+                    <li><a href="#" class="text-[18px] font-opensans font-semibold text-menucolor px-[20px] hover:text-menuhover ">About<i class="fa-solid fa-angle-down align-middle pl-1"></i></a></li>
+                    <li><a href="#" class="text-[18px] font-opensans font-semibold text-menucolor px-[20px] hover:text-menuhover ">Service<i class="fa-solid fa-angle-down align-middle pl-1"></i></a></li>
+                    <li><a href="#" class="text-[18px] font-opensans font-semibold text-menucolor px-[20px] hover:text-menuhover ">Portfolio<i class="fa-solid fa-angle-down align-middle pl-1"></i></a></li>
+                    <li><a href="#" class="text-[18px] font-opensans font-semibold text-menucolor px-[20px] hover:text-menuhover ">Price<i class="fa-solid fa-angle-down align-middle pl-1"></i></a></li>
+                    <li><a href="#" class="text-[18px] font-opensans font-semibold text-menucolor px-[20px] hover:text-menuhover ">Blog<i class="fa-solid fa-angle-down align-middle pl-1"></i></a></li>
+                </ul>
+            </div>
+            <div class="w-[20%] text-end ">
+                <a href="#" class="text-[18px] font-opensans font-semibold text-menucolor border py-[14px] px-[28px] rounded-full border-menuhover hover:bg-menuhover ">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <!-- nav part end -->
+    <!-- banner part start -->
+    <div class="bg-bannerimages">
+        <div class="bg-bannerhover py-[246px]">
+            <div class="w-[962px] mx-auto text-center relative">
+                <h1 class="font-opensans font-bold text-[84px] text-white leading-[100px] capitalize pb-[20px]">You’re Unique.your Website Should Be Too</h1>
+                <p class="text-bannerp font-normal text-[24px] text-white leading-[40px] capitalize px-[120px] pb-[16px]">A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business. </p>
+                <a href="#" class="text-[20px]  font-opensans leading-[24px] capitalize font-bold text-menucolor border py-[14px] px-[28px] rounded-full border-menuhover hover:bg-menuhover inline-block">get free quoto</a>
+                <a href="#" class="text-[20px]  font-opensans leading-[24px] capitalize font-bold text-menucolor border py-[14px] px-[28px] rounded-full border-menuhover hover:bg-menuhover inline-block ml-[20px]">Learn More</a>
+                <img class="absolute right-[-155px] bottom-[-173px]" src="Images/banner-dots.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <!-- banner part end -->
+    <!-- counter part start -->
+    <div class="pb-[108px]">
+        <div class="w-[1170px] mx-auto flex justify-between">
+            <div class="w-[270px]">
+                <img src="Images/counter-img-1.jpg" alt="">
+            </div>
+            <div class="w-[200px]">
+                <img src="Images/counter-img-2.jpg" alt="">
+            </div>
+            <div class="w-[340px]">
+                <img src="Images/counter-img-3.jpg" alt="">
+            </div>
+            <div class="w-[270px]">
+                <img src="Images/counter-img-4.jpg" alt="">
+            </div>
+        </div>
+        <div class="max-w-containerwidth mx-auto flex justify-between mt-[126px]">
+            <div class="text-center relative after:content-[''] after:absolute after:h-[132px] after:w-[3px] after:bg-clientcolor after:top-0 after:right-[-30px]">
+                <h2 class="font-opensans text-[64px] text-menuhover font-[800] leading-[68px]">53k</h2>
+                <p class="font-opensans text-[36px]  font-[700] leading-[40px] capitalize pt-[24px]">Happy client</p>
+            </div>
+            <div class="text-center relative after:content-[''] after:absolute after:h-[132px] after:w-[3px] after:bg-clientcolor after:top-0 after:right-[-30px]">
+                <h2 class="font-opensans text-[64px] text-menuhover font-[800] leading-[68px]">10k</h2>
+                <p class="font-opensans text-[36px]  font-[700] leading-[40px] capitalize pt-[24px]">Projects Done</p>
+            </div>
+            <div class="text-center relative after:content-[''] after:absolute after:h-[132px] after:w-[3px] after:bg-clientcolor after:top-0 after:right-[-30px]">
+                <h2 class="font-opensans text-[64px] text-menuhover font-[800] leading-[68px]">120</h2>
+                <p class="font-opensans text-[36px]  font-[700] leading-[40px] capitalize pt-[24px]">Gets Award</p>
+            </div>
+            <div class="text-center ">
+                <h2 class="font-opensans text-[64px] text-menuhover font-[800] leading-[68px]">16</h2>
+                <p class="font-opensans text-[36px]  font-[700] leading-[40px] capitalize pt-[24px]">operated years</p>
+            </div>
+        </div>
+    </div>
+    <!-- counter part end -->
+    <!-- why part start -->
+    <div class="bg-whybg py-[100px]">
+            <div class="max-w-containerwidth mx-auto flex justify-between">
+                <div class="w-[50%]">
+                    <div class="flex justify-between hover:py-[42px] pe-[146px] ps-[28px] bg-white hover:drop-shadow-xl hover:duration-300 mb-[32px]">
+                        <div class="pe-[37px]">
+                            <img class="inline-block" src="Images/why-icon.png" alt="">
+                        </div>
+                        <div class="">
+                            <p class="font-opensans text-[18px] font-[400] leading-[30px] ">We solve real-world problems through people and the web.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between hover:py-[42px] pe-[146px] ps-[28px] bg-white hover:drop-shadow-xl hover:duration-300 mb-[32px]">
+                        <div class="pe-[37px]">
+                            <img class="inline-block" src="Images/why-icon.png" alt="">
+                        </div>
+                        <div class="">
+                            <p class="font-opensans text-[18px] font-[400] leading-[30px] ">We make processes and technology work efficiently together.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between hover:py-[42px] pe-[146px] ps-[28px] bg-white hover:drop-shadow-xl hover:duration-300 mb-[32px]">
+                        <div class="pe-[37px]">
+                            <img class="inline-block" src="Images/why-icon.png" alt="">
+                        </div>
+                        <div class="">
+                            <p class="font-opensans text-[18px] font-[400] leading-[30px] ">We advance improve existing technology through research and development.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between hover:py-[42px] pe-[146px] ps-[28px] bg-white hover:drop-shadow-xl hover:duration-300 mb-[32px]">
+                        <div class="pe-[37px]">
+                            <img class="inline-block" src="Images/why-icon.png" alt="">
+                        </div>
+                        <div class="">
+                            <p class="font-opensans text-[18px] font-[400] leading-[30px] ">We develop long-lasting and scalable solutions, relationships partnerships.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[50%] ">
+                    <div class="ml-[186px]">
+                        <h2 class="font-opensans text-[48px]  font-[700]  capitalize">Why Choose Us</h2>
+                    <p class="font-opensans text-[18px]  font-[400] leading-[30px] pb-[41px]">We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs.</p>
+                    <a href="#" class="text-[18px] font-opensans font-semibold text-menucolor border py-[14px] px-[28px] rounded-full border-menuhover bg-menuhover inline-block ">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- why part end -->
+    <!-- what part start -->
+    <div class="py-[100px] bg-whatcolor">
+        <div class="max-w-containerwidth mx-auto">
+            <div class="flex justify-between flex-wrap">
+                <div class="w-[370px]">
+                    <h3 class="font-opensans text-[48px] font-bold capitalize">What We Do</h3>
+                    <p class="font-opensans text-[18px] leading-[32px] font-[400] pb-[56px] text-whatp">We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
+                    <a href="#" class="text-[20px] font-opensans font-bold text-menucolor border py-[20px] px-[40px] rounded-full border-menuhover bg-menuhover inline-block leading-[24px] ">Contact Us</a>
+                </div>
+                <div class="w-[370px] text-center bg-white rounded-whatradius py-[48px] px-[51px] group hover:bg-whatcard duration-300">
+                    <img src="Images/what-1.png" alt="" class="inline-block">
+                    <h4 class="font-opensans text-[30px] font-bold leading-[36px] lowercase text-black pb-[14px] pt-[32px] group-hover:text-white">web Design & Dev </h4>
+                    <p class="font-opensans text-[18px] font-[400] leading-[30px] text-whatp px-[15px] pb-[20px] group-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <a href="#" class="font-opensans text-[18px] font-[700] group-hover:text-white leading-[24px] text-black z-10 relative after:content-[''] after:rounded-r-full after:absolute after:right-[-13px] after:bottom-[-9px] after:hover:bg-menuhover after:-z-10 after:h-[40px] after:w-[30px] after:bg-whatbtn ">Read more</a>
+                </div>
+                <div class="w-[370px] text-center bg-white rounded-whatradius py-[48px] px-[51px] group hover:bg-whatcard duration-300">
+                    <img src="Images/what-2.png" alt="" class="inline-block">
+                    <h4 class="font-opensans text-[30px] font-bold leading-[36px] capitalize text-black pb-[14px] pt-[32px] group-hover:text-white">Software Dev  </h4>
+                    <p class="font-opensans text-[18px] font-[400] leading-[30px] text-whatp px-[15px] pb-[20px] group-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <a href="#" class="font-opensans text-[18px] font-[700] group-hover:text-white leading-[24px] text-black z-10 relative after:content-[''] after:rounded-r-full after:absolute after:right-[-13px] after:bottom-[-9px] after:hover:bg-menuhover after:-z-10 after:h-[40px] after:w-[30px] after:bg-whatbtn ">Read more</a>
+                </div>
+                <div class="w-[370px] text-center mt-[30px] bg-white rounded-whatradius py-[48px] px-[51px] group hover:bg-whatcard duration-300">
+                    <img src="Images/what-3.png" alt="" class="inline-block">
+                    <h4 class="font-opensans text-[30px] font-bold leading-[36px] capitalize text-black pb-[14px] pt-[32px] group-hover:text-white">Content Writing </h4>
+                    <p class="font-opensans text-[18px] font-[400] leading-[30px] text-whatp px-[15px] pb-[20px] group-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <a href="#" class="font-opensans text-[18px] font-[700] group-hover:text-white leading-[24px] text-black z-10 relative after:content-[''] after:rounded-r-full after:absolute after:right-[-13px] after:bottom-[-9px] after:hover:bg-menuhover after:-z-10 after:h-[40px] after:w-[30px] after:bg-whatbtn ">Read more</a>
+                </div>
+                <div class="w-[370px] text-center mt-[30px] bg-white rounded-whatradius py-[48px] px-[51px] group hover:bg-whatcard duration-300">
+                    <img src="Images/what-4.png" alt="" class="inline-block">
+                    <h4 class="font-opensans text-[30px] font-bold leading-[36px] capitalize text-black pb-[14px] pt-[32px] group-hover:text-white">Digital Marketing</h4>
+                    <p class="font-opensans text-[18px] font-[400] leading-[30px] text-whatp px-[15px] pb-[20px] group-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <a href="#" class="font-opensans text-[18px] font-[700] group-hover:text-white leading-[24px] text-black z-10 relative after:content-[''] after:rounded-r-full after:absolute after:right-[-13px] after:bottom-[-9px] after:hover:bg-menuhover after:-z-10 after:h-[40px] after:w-[30px] after:bg-whatbtn ">Read more</a>
+                </div>
+                <div class="w-[370px] text-center mt-[30px] bg-white rounded-whatradius py-[48px] px-[40px] group hover:bg-whatcard duration-300">
+                    <img src="Images/what-5.png" alt="" class="inline-block">
+                    <h4 class="font-opensans text-[30px] font-bold leading-[36px] capitalize text-black pb-[14px] pt-[32px] group-hover:text-white">Support & Training</h4>
+                    <p class="font-opensans text-[18px] font-[400] leading-[30px] text-whatp px-[15px] pb-[20px] group-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <a href="#" class="font-opensans text-[18px] font-[700] group-hover:text-white leading-[24px] text-black z-10 relative after:content-[''] after:rounded-r-full after:absolute after:right-[-13px] after:bottom-[-9px] after:hover:bg-menuhover after:-z-10 after:h-[40px] after:w-[30px] after:bg-whatbtn ">Read more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- what part end -->
+    <!-- impact part start -->
+    <div class="py-[100px]">
+        <div class="max-w-containerwidth mx-auto">
+            <div class="text-center">
+                <h3 class="font-opensans text-[48px] font-bold ">We create real impact</h3>
+                <p class="font-opensans text-[18px] font-[400] leading-[30px]  px-[346px] ">We design, build and support websites and apps for clients worldwide. Create beautiful, eye-catching on-page messages without the need for a developer.
+                </p>
+            </div>
+            <div class="flex justify-between mt-[75px]">
+                <div class="w-[50%]">
+                    <div class="flex justify-between">
+                        <div class="">
+                            <img class="align-middle" src="Images/impact-1.png" alt="">
+                        </div>
+                        <div class="ps-[35px]">
+                            <h3 class="font-opensans text-[30px] font-[700] leading-[35px] capitalize pb-[20px] ">Competitive analysis</h3>
+                            <p class="font-opensans text-[18px] font-[400] leading-[30px] pe-[189px]">With an all-new look and powerful features, Ekko is the best way to ensure success for your business.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between mt-[40px]">
+                        <div class="">
+                            <img class="align-middle" src="Images/impact-2.png" alt="">
+                        </div>
+                        <div class="ps-[35px]">
+                            <h3 class="font-opensans text-[30px] font-[700] leading-[35px] capitalize pb-[20px] ">Competitive analysis</h3>
+                            <p class="font-opensans text-[18px] font-[400] leading-[30px] pe-[189px]">With an all-new look and powerful features, Ekko is the best way to ensure success for your business.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[50%]">
+                    <div class="">
+                        <img  src="Images/impact-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- impact part end -->
+    <!-- plan part start -->
+    <div class="py-[100px] bg-planbg">
+        <div class="max-w-containerwidth mx-auto">
+            <div class="text-center">
+                <h3 class="font-opensans text-[48px] font-[700] pb-[64px]">Choose The Right Plan</h3>
+            </div>
+            <div class="flex justify-between">
+                <div class="w-[375px]">
+                    <h4>Basic</h4>
+                </div>
+                <div class="w-[375px]"></div>
+                <div class="w-[375px]"></div>
+            </div>
+        </div>
+    </div>
+    <!-- plan part end -->
+    <script src="js/tailwind.config.js" ></script>
+</body>
+</html>
